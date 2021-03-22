@@ -1,11 +1,9 @@
 import firebase from "firebase";
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import React, { useState, useEffect } from 'react';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-//import * as firebase from 'firebase';
 import "firebase/auth";
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Login from "./Login";
@@ -26,7 +24,7 @@ const fire = firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth();
 const signInWithGoogleButton = document.getElementById('signInWithGoogle');
 
-export const signInWithGoogle = () => {
+const signInWithGoogle = () => {
     const googleProvider = new firebase.auth.GoogleAuthProvider();
   
     firebase.auth()

@@ -3,6 +3,7 @@ import "./App.css";
 import fire from "./fire";
 import Login from "./Login"
 import Home from "./Home";
+import Form from "./Form";
 
 
 function App() {

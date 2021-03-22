@@ -52,10 +52,6 @@ const Login = (props) => {
                     )}
                 </div>
             </div>
-            <button onclick = {signInWithGoogle} id="signInWithGoogle">
-                Login with your Google
-                <img src="./img/google-logo.png" width="55px" height="55px" alt="Sign in with your Google account."/>
-            </button>
         </section>
         
     );
